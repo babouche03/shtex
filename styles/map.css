@@ -1,0 +1,53 @@
+.google-map {
+    padding-bottom: 50%;
+    position: relative;
+    
+  }
+  
+  .google-map iframe {
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    position: absolute;
+  }
+
+  .home{
+    height: 50px;
+  }
+
+ .con{
+    padding-top: 60px;
+    margin-bottom: 80px;
+    font-size: 40px;
+    line-height: 1.35em;
+    font-family: Playfair Display;
+    font-weight: 90;
+    text-align: center;
+ }
+
+ .mail{
+    text-align: center;
+    font-size: 19px;
+    margin-bottom: 30px;
+    font-family: Noto Serif SC;
+  font-weight: 550;
+
+ }
+
+ .phone{
+    text-align: center;
+    font-size: 19px;
+    margin-bottom: 30px;
+    font-family: Noto Serif SC;
+  font-weight: 550;
+
+ }
+
+ .pos{
+    text-align: center;
+    font-size: 19px;
+    margin-bottom: 30px;
+    font-family: Noto Serif SC;
+  font-weight: 550;
+ }

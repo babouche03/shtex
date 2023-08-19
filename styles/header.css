@@ -1,0 +1,79 @@
+.header{
+    height:88px;
+    display: flex;
+    flex-direction:row ;
+    justify-content: space-between;
+    padding-top: 15px;
+    padding-bottom: 25px;
+}
+
+.left-section{
+    width: 600px;
+    display:flex;
+    align-items:center;
+    flex: 1.5;
+
+}
+
+
+
+
+.right-section{
+
+    display: flex;
+   
+    align-items:center;
+     flex:1
+   
+}
+
+.tex{
+    font-size: 35px;
+    font: weight 500px;
+    font-family: Roboto;
+
+}
+
+.shouye{
+    margin-left: 80px;
+    display: flex;
+display: inline;
+margin-right: 33px;
+color: rgb(86, 82, 82);
+}
+
+.shouye:hover{
+    text-decoration: underline;
+
+}
+a {
+    color: inherit;
+}
+a:link { text-decoration: none; }
+
+.guanyu{
+   margin-right: 33px;
+    display: flex; 
+    display: inline;
+    color: rgb(86, 82, 82);
+}
+
+.rexiao{
+    display: flex; 
+    display: inline;
+    margin-right: 33px;
+    color: rgb(86, 82, 82);
+}
+
+.lianxi{
+    display: flex; 
+    display: inline;
+    color: rgb(86, 82, 82);
+
+}
+
+.shtex{
+    font-size: 22px;
+  font-weight: 500;
+    font-family:Playfair Display ;
+}

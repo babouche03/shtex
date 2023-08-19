@@ -1,0 +1,26 @@
+.picture1 {
+    background: black;
+    display: inline-block;
+    height: 720px;
+    width: 100%;
+    margin-bottom: 48px;
+    
+}
+
+.picture1>img{
+    opacity: 0.7;
+}
+
+.picture1::after{
+    content:"Welcome to \a    絲鴻紡織";
+    position: absolute;
+    top:300px;
+    white-space: pre;
+    right:20%;
+    transform: 
+    translateX(50%);
+    font-weight: bold;
+    font-size: 100px;
+    font-family: Roboto;
+    color:rgb(255, 255, 255)
+}
