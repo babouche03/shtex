@@ -2,11 +2,10 @@
     background-color: rgb(200, 0, 0);
     color:white;
     border: none ;
-    height: 35px;
-    width:105px ;
+    height: 33px;
+    width:70px ;
     border-radius:2px ;
     cursor:pointer; 
-    margin-right:8px;
     /* 使按键可点击 */
     transition:opacity 0.18s;
     /* 过渡 */
@@ -60,4 +59,27 @@ transition:box-shadow 0.2s;
 
 .tweet-button:hover{
  box-shadow:10px 10px 10px rgba(0,0,0,0.15)  ;
+}
+
+.button{
+    margin-top: 15px;
+    height: 50px;
+}
+
+.btn-success{
+    margin-right: 8px;
+    border-radius: 18px;
+    border:none;
+    background-color: rgb(106, 102, 102);
+    color: white; 
+    transition:background-color 0.2s;
+}
+
+.btn-success:active{
+    background-color: black;
+   
+    
+}
+.btn-success:focus{
+    background-color: black;
 }

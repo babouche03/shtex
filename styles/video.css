@@ -13,8 +13,40 @@
 
 }
 
+
+.thumbnail0{
+    margin-top: 20px;
+    height: 450px;
+    /* width:300px; 强制图片大小,一般不这么用 */
+    width:80%;
+    border-radius: 10px;
+    cursor:pointer; 
+    /* 显示方式，决定占不占一行空间 */
+}
+
+.thumbnail1{
+    margin-top: 20px;
+    height: 480px;
+    /* width:300px; 强制图片大小,一般不这么用 */
+    width:80%;
+    border-radius: 10px;
+    cursor:pointer; 
+    /* 显示方式，决定占不占一行空间 */
+}
+
+
+.thumbnail2{
+    margin-top: 20px;
+    height: 480px;
+    /* width:300px; 强制图片大小,一般不这么用 */
+    width:80%;
+    border-radius: 10px;
+    cursor:pointer; 
+    /* 显示方式，决定占不占一行空间 */
+}
+
 .popup{
-    width:970px;
+    width:980px;
     height: 640px;
     background:#fff ;
     border-radius: 5px;
@@ -36,13 +68,49 @@
     left: calc(50% - 50px); 
     transform: translate(-50%,-50%) scale(1);
     box-shadow: 0 0 0 9999px #000000b0;
+    padding-left:0%;
+    padding-right:0% ;
 }
 
+
+
+.open-popup1{
+    visibility: visible;
+    position:fixed; 
+    top: calc(50% - 25px); 
+    left: calc(50% - 50px); 
+    transform: translate(-50%,-50%) scale(1);
+    box-shadow: 0 0 0 9999px #000000b0;
+    padding-left:0%;
+    padding-right:0% ;
+}
+
+.open-popup2{
+    visibility: visible;
+    position:fixed; 
+    top: calc(50% - 25px); 
+    left: calc(50% - 50px); 
+    transform: translate(-50%,-50%) scale(1);
+    box-shadow: 0 0 0 9999px #000000b0;
+    padding-left:0%;
+    padding-right:0% ;
+}
+
+.open-popup3{
+    visibility: visible;
+    position:fixed; 
+    top: calc(50% - 25px); 
+    left: calc(50% - 50px); 
+    transform: translate(-50%,-50%) scale(1);
+    box-shadow: 0 0 0 9999px #000000b0;
+    padding-left:0%;
+    padding-right:0% ;
+}
 
 .video-title{
     width: 100%;
     margin-top: 0;
-    font-size: 14px;
+    font-size: 16px;
     font-weight:500 ;
     line-height: 20px;
     margin-bottom: 11px;
@@ -78,7 +146,7 @@
 }
 
 .video-author{
-    font-size:12px ;
+    font-size:13px ;
     color:rgb(96,96,96);
     /* 字体大小、颜色 */
     margin-bottom: 4px;
@@ -101,3 +169,6 @@
    min-width: 800px;
 }
 
+.blocker{
+    text-align:right;
+}
