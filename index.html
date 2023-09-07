@@ -29,6 +29,7 @@
        
     </head>
     <body> 
+<div onclick="hidePopup()">
         <div class="header">
             <div class="left-section">
                 <button class="join-button">
@@ -40,7 +41,7 @@
             </div>
            
             <div class="right-section">
-                <p class="shouye"><a href="https://babouche03.github.io/shtex/">首页</a></p>
+               <p class="shouye"><a href="https://babouche03.github.io/shtex/">首页</a></p>
                <p class="guanyu"><a href="https://babouche03.github.io/page1/">关于我们</a></p>
                <p class="rexiao"><a href="https://babouche03.github.io/page2/">热销产品</a>  </p>
                <p class="lianxi"><a href="https://babouche03.github.io/page3/">联系我们</a></p>
@@ -49,19 +50,55 @@
 
         </div>
        
-<div class="picture1">
+  <div class="picture1">
     <img class="picture1" src="icons/1.webp">
+  </div>
    
-</div>
+</div> 
 
         <div class="video-grid"> 
             <div class="video-preview">
                 <div class="thumbnail-row">
                     <img class="thumbnail" src="icons/CASHWOOL AW7030.jpg" onclick="openPopup()"> <!-- 加载图片 -->
+        
+                   
                     <div class="popup" id="popup">
-                       <p>12</p>
+                        <div class="blocker" onclick="hidePopup()">
+                            <button class="subscribe-button">X</button>
+                        </div>
+                        <div class="grid1">
+                            <div class="product">
+                                <img class="thumbnail0" src="icons/CASHWOOL AW7030.jpg">
+                                <p class="intro">
+                                    Cashwool-AW7030 意大利风格毛晴纱
+                                </p>
+                                <p class="intro0">
+                                    2/48NM 美丽诺羊毛/抗起球晴 30/70
+                                </p>
+                                <p class="intro1">
+                                    104色 现货供应
+                                </p>
+                            </div>
+                            <div class="colour">
+                                <div><img class="thumbnail1" id="thumbnail1"src="icons/48NM AW7030意式毛晴2.jpg"></div>
+                                <div class="button">
+                                    <button class="btn-success" onclick=before();>
+                                       1
+                                    </button>
+                                    <button class="btn-success" onclick=afterr();>
+                                      2
+                                    </button>
+                                    <button class="btn-success" onclick=afterrr();>
+                                        3
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+            
                     </div>
                 </div>
+                    
+       
                 <div class="video-info-grid">
                     <div class="video-info">
                          <p class="video-title">
@@ -69,26 +106,55 @@
                      </p>
     
                      <p class="video-author">
-                        Marques Brownlee
+                       超细美丽诺澳毛 德国抗起球晴纶
                      </p>
     
-                    <p class="video-stats">
-                        3.4M views &#183 6 months ago
-                    </p>
                     </div>
                     
                 </div>
                 
-           
-    
             </div>
     
     
+
+
+
+
             <div class="video-preview">
                 <div class="thumbnail-row">
-                    <img class="thumbnail" src="icons/xueshan.jpg"onclick="openPopup()"> <!-- 加载图片 -->
-                     <div class="popup" id="popup">
-                       <p>12</p>
+                    <img class="thumbnail" src="icons/xueshan.jpg"onclick="openPopup1()"> <!-- 加载图片 -->
+                     <div class="popup" id="popup1">
+                        <div class="blocker" onclick="hidePopup()">
+                            <button class="subscribe-button">X</button>
+                        </div>
+                        <div class="grid1">
+                            <div class="product">
+                                <img class="thumbnail0" src="icons/xueshan.jpg">
+                                <p class="intro">
+                                    14支 雪山貂绒
+                                </p>
+                                <p class="intro0">
+                                    1/14NM 
+                                </p>
+                                <p class="intro1">
+                                  现货供应
+                                </p>
+                            </div>
+                            <div class="colour">
+                                <div><img class="thumbnail1" id="thumbnail2"src="icons/14支 雪山貂绒色卡1.jpg"></div>
+                                <div class="button">
+                                    <button class="btn-success" onclick=before1();>
+                                       1
+                                    </button>
+                                    <button class="btn-success" onclick=afterr1();>
+                                      2
+                                    </button>
+                                    <button class="btn-success" onclick=afterrr1();>
+                                        3
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div class="video-info-grid">
@@ -99,12 +165,9 @@
                          </p>
     
                         <p class="video-author">
-                            Markiplier
+                          100%超柔尼龙
                         </p>
     
-                        <p class="video-stats">
-                            19M views &#183 4 years ago
-                        </p>
                     </div>
                     
                 </div>
@@ -113,11 +176,44 @@
             </div>
     
     
+
+
+
             <div class="video-preview">
                 <div class="thumbnail-row">
-                    <img class="thumbnail" src="icons/BONITY丝光三七.jpg"onclick="openPopup()"> <!-- 加载图片 -->
-                    <div class="popup" id="popup">
-                        <p>12</p>
+                    <img class="thumbnail" src="icons/BONITY丝光三七.jpg" id="thumbnails"onclick="openPopup2()"> <!-- 加载图片 -->
+                    <div class="popup" id="popup2">
+                        <div class="blocker" onclick="hidePopup()">
+                            <button class="subscribe-button">X</button>
+                        </div>
+                        <div class="grid1">
+                            <div class="product">
+                                <img class="thumbnail0" src="icons/BONITY丝光三七.jpg">
+                                <p class="intro">
+                                    BONITY丝光毛晴纱
+                                </p>
+                                <p class="intro0">
+                                    2/48NM 丝光羊毛/抗起球晴纶 30/70
+                                </p>
+                                <p class="intro1">
+                                    130色 现货供应
+                                </p>
+                            </div>
+                            <div class="colour">
+                                <div><img class="thumbnail1" id="thumbnail3"src="icons/BONITY丝光三七图2.jpg"></div>
+                                <div class="button">
+                                    <button class="btn-success" onclick=before2();>
+                                       1
+                                    </button>
+                                    <button class="btn-success" onclick=afterr2();>
+                                      2
+                                    </button>
+                                    <button class="btn-success" onclick=afterrr2();>
+                                        3
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div class="video-info-grid">
@@ -128,12 +224,9 @@
                      </p>
     
                      <p class="video-author">
-                        Marques Brownlee
+                       丝光美丽诺 天然抗菌
                      </p>
-    
-                    <p class="video-stats">
-                        3.4M views &#183 6 months ago
-                    </p>
+
                     </div>
                     
                 </div>
@@ -142,12 +235,47 @@
     
             </div>
     
+
+
     
             <div class="video-preview">
                 <div class="thumbnail-row">
-                    <img class="thumbnail" src="icons/CASHWOOL.jpg"onclick="openPopup()"> <!-- 加载图片 -->
-                    <div class="popup" id="popup">
-                        <p>12</p>
+                    <img class="thumbnail" src="icons/CASHWOOL.jpg"onclick="openPopup3()"> <!-- 加载图片 -->
+                    <div class="popup" id="popup3">
+                        <div class="blocker" onclick="hidePopup()">
+                            <button class="subscribe-button">X</button>
+                        </div>
+                        <div class="grid1">
+                            <div class="product">
+                                <img class="thumbnail0" src="icons/CASHWOOL.jpg">
+                                <p class="intro">
+                                    Cashwool 意式五五毛晴纱
+                                </p>
+                                <p class="intro0">
+                                    2/28NM&2/48NM&2/60NM 美丽诺羊毛/抗起球晴 50/50
+                                </p>
+                                <p class="intro1">
+                                    170色 现货供应
+                                </p>
+                            </div>
+                            <div class="colour">
+                                <div><img class="thumbnail1" id="thumbnail4"src="icons/CASHWOOL意式五五毛晴图2.jpg"></div>
+                                <div class="button">
+                                    <button class="btn-success" onclick=before3();>
+                                       1
+                                    </button>
+                                    <button class="btn-success" onclick=afterr3();>
+                                      2
+                                    </button>
+                                    <button class="btn-success" onclick=afterrr3();>
+                                        3
+                                    </button>
+                                    <button class="btn-success" onclick=afterrrr3();>
+                                        4
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div class="video-info-grid">
@@ -158,12 +286,9 @@
                          </p>
     
                         <p class="video-author">
-                            Markiplier
+                            超细美丽诺澳毛 德国拜耳抗起球晴纶
                         </p>
     
-                        <p class="video-stats">
-                            19M views &#183 4 years ago
-                        </p>
                     </div>
                     
                 </div>
@@ -174,6 +299,8 @@
 
 
         </div>
+
+<div onclick="hidePopup()">
 
        <div class="show">
         <div class="who">
@@ -245,8 +372,11 @@
         </p>
 
     </div>
+       
+</div>
 
-        <script>
+    <script>
+        /*popup1*/
         let popup=document.getElementById("popup")
 
         function openPopup(){
@@ -254,7 +384,113 @@
 
         }
 
+        function hidePopup(){
+            popup.classList.remove("open-popup");
+            popup1.classList.remove("open-popup1");
+            popup2.classList.remove("open-popup2");
+            popup3.classList.remove("open-popup3");
+        }
+
+
+        /* popup2*/
+        let popup1=document.getElementById("popup1")
+         function openPopup1(){
+        popup1.classList.add("open-popup1");
+        }
+
+        /* popup3*/
+        let popup2=document.getElementById("popup2")
+         function openPopup2(){
+        popup2.classList.add("open-popup2");
+        }
+
+         /* popup4*/
+         let popup3=document.getElementById("popup3")
+         function openPopup3(){
+        popup3.classList.add("open-popup3");
+        }
+
+
+/* 色卡图片切换*/
+function before(){
+    document.getElementById('thumbnail1')
+    .src="icons/48NM AW7030意式毛晴2.jpg";
+   
+}
+     
+function afterr(){
+    document.getElementById('thumbnail1')
+    .src="icons/48NM AW7030意式毛晴3.jpg";
+  
+}
+     
+function afterrr(){
+    document.getElementById('thumbnail1')
+    .src="icons/48NM AW7030意式毛晴4.jpg";
+  
+}
+
+
+
+function before1(){
+    document.getElementById('thumbnail2')
+    .src="icons/14支 雪山貂绒色卡1.jpg";
+   
+}
+function afterr1(){
+    document.getElementById('thumbnail2')
+    .src="icons/14支 雪山貂绒色卡2.jpg";
+  
+}
+function afterrr1(){
+    document.getElementById('thumbnail2')
+    .src="icons/14支 雪山貂绒色卡3.jpg";
+  
+}
+
+
+
+function before2(){
+    document.getElementById('thumbnail3')
+    .src="icons/BONITY丝光三七图2.jpg";
+   
+}
+function afterr2(){
+    document.getElementById('thumbnail3')
+    .src="icons/BONITY丝光三七图3.jpg";
+  
+}  
+function afterrr2(){
+    document.getElementById('thumbnail3')
+    .src="icons/BONITY丝光三七图4.jpg";
+  
+}
+
+
+function before3(){
+    document.getElementById('thumbnail4')
+    .src="icons/CASHWOOL意式五五毛晴图2.jpg";
+   
+}
+function afterr3(){
+    document.getElementById('thumbnail4')
+    .src="icons/CASHWOOL意式五五毛晴图3.jpg";
+  
+}  
+function afterrr3(){
+    document.getElementById('thumbnail4')
+    .src="icons/CASHWOOL意式五五毛晴图4.jpg";
+  
+}
+function afterrrr3(){
+    document.getElementById('thumbnail4')
+    .src="icons/CASHWOOL意式五五毛晴图5.jpg";
+  
+}
+
+
     </script>
-       
+
     </body>
+
 </html>
